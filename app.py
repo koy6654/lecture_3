@@ -1,5 +1,11 @@
 import func_module as fm
 
+import math_module as mm
+
+from random_module import lotto_num as lotto
+
+import datetime as dt
+
 #func_module.module_show()
 
 nowdate = fm.date_now()
@@ -21,7 +27,7 @@ x_mas_day = x_mas.day
 x_mas_now = '{}년 {}월 {}일'.format(x_mas_year, x_mas_month, x_mas_day)
 #print(x_mas_now)
 
-import datetime as dt
+
 
 today = dt.date.today()
 #print('오늘은 {}년 {}월 {}일입니다'.format(today.year, today.month, today.day))
@@ -30,9 +36,7 @@ time_gap = x_mas - dt.datetime.now()
 #print("남은날 = {}월 {}일".format(time_gap.days, time_gap.seconds))
 
 
-import math_module as mm
-
-
+lotto()
 
 
 

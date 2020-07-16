@@ -7,6 +7,6 @@ def math_m ():
         print("4**%d" %i,"=",result)
 
 
-math_m()
+#math_m()
 
 
