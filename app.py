@@ -30,6 +30,11 @@ time_gap = x_mas - dt.datetime.now()
 #print("남은날 = {}월 {}일".format(time_gap.days, time_gap.seconds))
 
 
+import math_module as mm
+
+
+
+
 
 
 
